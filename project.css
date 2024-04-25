@@ -1,0 +1,42 @@
+.row{
+    display: grid;
+    grid-template-areas: 'a1 a1';
+    text-align: center;
+}
+.a{
+    width: 600px;
+    height: 500px;
+    border: 1px solid whitesmoke;
+    box-shadow: 10px 10px 10px;
+    background-color: rgb(9, 21, 21);
+    margin: 50px;
+}
+.a:hover{
+    border: 3px solid black;
+}
+.b{
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px;
+    margin-top: 10px;
+    align-items: center; 
+}
+.foot{
+    width: 200px;
+    padding: 70px 30px 20px;
+    align-items: initial;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.icons a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: azure;
+    border-radius: 5px;
+}
+.bottom{
+    font-size: 17px;
+    font-style: italic;
+}
